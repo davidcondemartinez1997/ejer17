@@ -4,5 +4,11 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const persona = {
+	nombre: "Pepe",
+	apellidos: "Lopez",
+	edad: 23
+}
+
+ReactDOM.render(<App persona={persona}/>, document.getElementById('root'));
 registerServiceWorker();
