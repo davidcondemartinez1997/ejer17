@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+//import CampoTexto from './CampoTexto';
 import registerServiceWorker from './registerServiceWorker';
 
 const persona = {
@@ -11,4 +12,8 @@ const persona = {
 }
 
 ReactDOM.render(<App persona={persona}/>, document.getElementById('root'));
+
+//ReactDOM.render(<CampoTexto persona={persona}/>, document.getElementById('root2'));
+
 registerServiceWorker();
+
